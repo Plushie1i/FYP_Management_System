@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plushie1i/FYP_Management_System.git"
+  },
+  "author": "Plushie1i",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Plushie1i/FYP_Management_System/issues"
+  },
+  "homepage": "https://github.com/Plushie1i/FYP_Management_System#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.1",
+    "nodemailer": "^6.9.15",
+    "react-router-dom": "^6.27.0",
+    "socket.io": "^4.8.0",
+    "websocket": "^1.0.35"
+  }
+}
