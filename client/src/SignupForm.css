@@ -1,0 +1,107 @@
+/* src/components/SignupForm.css */
+.signup-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: white;
+    padding: 0 120px;
+    box-sizing: border-box;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+  }
+  
+  .animated-image {
+    flex:1;
+    max-width: 700px ;
+    height: auto;
+    object-fit:cover;
+    padding: 20px;
+    margin-right: auto ;
+  }
+  
+  .signup-form-container {
+    flex: 1;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.9); /* Slightly opaque white */
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Opaque shadow */
+    border-radius: 12px; /* Soft edges */
+    margin-left: auto; /* Aligns the form to the right */
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  
+  .logo {
+    flex: 1;
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .app-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1890ff;
+  }
+  
+  .signup-form {
+    flex : 1;
+    padding: 100px;
+    width: 100%;
+  }
+  
+
+
+
+
+
+
+
+/* src/components/SignupForm.css 
+.Form{
+    align-content: center;
+}
+.signup-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    /*width: 20px;
+    height: auto;
+    margin-bottom: 10px;
+    height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  }
+  
+  .app-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1890ff;
+  }
+  
+  .signup-form {
+    width: 100%;
+  }
+  */
