@@ -1,0 +1,40 @@
+/* src/components/LoginForm.css */
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+  
+  .login-form-container {
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 20%; /* Adjusts based on container size */
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .app-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1890ff;
+  }
+  
+  .login-form {
+    width: 100%;
+  }
+  
